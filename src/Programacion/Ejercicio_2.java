@@ -23,6 +23,6 @@ public class Ejercicio_2 {
 		System.out.println("Que tal se vive en " + localidad + " ?");
 		terminator.nextLine();
 		System.out.println("Me alegro, gracias");
-		
+		terminator.close();
 	}
 }

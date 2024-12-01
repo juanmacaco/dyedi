@@ -12,7 +12,7 @@ public class Ejercicio_4 {
 		Scanner terminator = new Scanner(System.in);
 		System.out.println("Dame tu año de nacimiento: ");
 		Integer ano = terminator.nextInt();
-		System.out.println("Tu edad es de " + (2024-ano));
+		System.out.println("Tu edad es de " + (2024 - ano) + " años");
 		terminator.close();
 	}
 }

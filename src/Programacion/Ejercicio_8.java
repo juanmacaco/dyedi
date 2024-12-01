@@ -12,18 +12,17 @@ public class Ejercicio_8 {
 //			 Guarda el valor de “b” en una variable de tipo Integer llamada “x3”
 //			 Guarda el valor de “c” en una variable de tipo Long llamada “x4”
 //			Imprime por consola el valor de todas las variables x1, x2, x3 y x4 
-		
+
 		String a = "1";
 		Double b = 1.5;
 		Float c = 10f;
-		
+
 		Long x1 = Long.parseLong(a);
 		String x2 = b.toString();
 		Integer x3 = b.intValue();
 		Long x4 = c.longValue();
-		
-		System.out.println(x1 + " " + x2 + " " + x3 + " "+ x4);
-		
-		
+
+		System.out.println(x1 + " " + x2 + " " + x3 + " " + x4);
+
 	}
 }
